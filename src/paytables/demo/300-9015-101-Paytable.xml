@@ -1,0 +1,1269 @@
+<Paytable>
+	<PaytableData>
+		<!-- @validation:ignore -->
+		<PaytableVariation name="Variation">
+			<Variation>
+				<SoftwareId>300-9015-101</SoftwareId>
+				<PaytableStatistics type="Lottery" description="IW Commercial Keno Template" name="Keno Template" maxRTP="93.00" minRTP="85.00" />
+				<BetConfiguration name="ODEWager">
+					<PlayedCreditsPerSelection>1</PlayedCreditsPerSelection>
+					<PaidCreditsPerSelection>1</PaidCreditsPerSelection>
+				</BetConfiguration>
+				<ExecutionModelMapping>
+					<ExecutionModel name="Wager_Buy">
+						<Data type="Wager_Buy.ActionVerifier" name="Wager_Buy.ActionVerifier" />
+						<Data type="Wager_Buy.ODEInputVerifier.Wager" name="Wager_Buy.ODEInputVerifier.Wager" />
+						<Data type="Wager_Buy.ODEInputVerifier.JSON" name="Wager_Buy.ODEInputVerifier.JSON" />
+						<Data type="Wager_Buy.ODEInputVerifier.Keno" name="Wager_Buy.ODEInputVerifier.Keno" />
+						<Data type="Wager_Buy.StaticTriggerProcessor" name="Wager_Buy.StaticTriggerProcessor" />
+						<Data type="Wager_Buy.LoopProcessor" name="Wager_Buy.LoopProcessor" />
+						<Data type="Wager_Buy.StageProcessor" name="Wager_Buy.StageProcessor" />
+						<Data type="Wager_Buy.AdvancedTransactionProcessor" name="Wager_Buy.AdvancedTransactionProcessor" />
+					</ExecutionModel>
+					<ExecutionModel name="Wager_Try">
+						<Data type="Wager_Try.ActionVerifier" name="Wager_Try.ActionVerifier" />
+						<Data type="Wager_Try.ODEInputVerifier.Wager" name="Wager_Try.ODEInputVerifier.Wager" />
+						<Data type="Wager_Try.ODEInputVerifier.JSON" name="Wager_Try.ODEInputVerifier.JSON" />
+						<Data type="Wager_Try.ODEInputVerifier.Keno" name="Wager_Try.ODEInputVerifier.Keno" />
+						<Data type="Wager_Try.RandomRequest.DivisionSelection" name="Wager_Try.RandomRequest.DivisionSelection" />
+						<Data type="Wager_Try.RandomRequest.ScenarioPerDivision" name="Wager_Try.RandomRequest.ScenarioPerDivision" />
+						<Data type="Wager_Try.RandomResponse.DivisionSelection" name="Wager_Try.RandomResponse.DivisionSelection" />
+						<Data type="Wager_Try.RandomResponse.ScenarioPerDivision" name="Wager_Try.RandomResponse.ScenarioPerDivision" />
+						<Data type="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome" name="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome" />
+						<Data type="Wager_Try.PopulationTriggerProcessor" name="Wager_Try.PopulationTriggerProcessor" />
+						<Data type="Wager_Try.TriggerConcatProcessor.ScenarioReelset" name="Wager_Try.TriggerConcatProcessor.ScenarioReelset" />
+						<Data type="Wager_Try.BulkGameDataStoreProcessor" name="Wager_Try.BulkGameDataStoreProcessor" />
+						<Data type="Wager_Try.ODEPrizeProcessor" name="Wager_Try.ODEPrizeProcessor" />
+						<Data type="Wager_Try.StaticTriggerProcessor" name="Wager_Try.StaticTriggerProcessor" />
+						<Data type="Wager_Try.LoopProcessor" name="Wager_Try.LoopProcessor" />
+						<Data type="Wager_Try.StageProcessor" name="Wager_Try.StageProcessor" />
+						<Data type="Wager_Try.AdvancedTransactionProcessor" name="Wager_Try.AdvancedTransactionProcessor" />
+					</ExecutionModel>
+					<ExecutionModel name="WagerLoop">
+						<Data type="WagerLoop.RandomRequest.ScenarioSelection" name="WagerLoop.RandomRequest.ScenarioSelection" />
+						<Data type="WagerLoop.RandomResponse.ScenarioSelection" name="WagerLoop.RandomResponse.ScenarioSelection" />
+						<Data type="WagerLoop.OutcomeDeepCopyProcessor.ODEOutcome" name="WagerLoop.OutcomeDeepCopyProcessor.ODEOutcome" />
+						<Data type="WagerLoop.PopulationTriggerProcessor" name="WagerLoop.PopulationTriggerProcessor" />
+						<Data type="WagerLoop.BulkGameDataStoreProcessor" name="WagerLoop.BulkGameDataStoreProcessor" />
+						<Data type="WagerLoop.ODEPrizeProcessor" name="WagerLoop.ODEPrizeProcessor" />
+						<Data type="WagerLoop.StaticTriggerProcessor" name="WagerLoop.StaticTriggerProcessor" />
+						<Data type="WagerLoop.LoopProcessor" name="WagerLoop.LoopProcessor" />
+						<Data type="WagerLoop.StageProcessor" name="WagerLoop.StageProcessor" />
+						<Data type="WagerLoop.AdvancedTransactionProcessor" name="WagerLoop.AdvancedTransactionProcessor" />
+					</ExecutionModel>
+					<ExecutionModel name="Scenario">
+						<Data type="Scenario.RandomRequest.DivisionSelection" name="Scenario.RandomRequest.DivisionSelection" />
+						<Data type="Scenario.RandomResponse.DivisionSelection" name="Scenario.RandomResponse.DivisionSelection" />
+						<Data type="Scenario.OutcomeDeepCopyProcessor.ODEOutcome" name="Scenario.OutcomeDeepCopyProcessor.ODEOutcome" />
+						<Data type="Scenario.PopulationTriggerProcessor" name="Scenario.PopulationTriggerProcessor" />
+						<Data type="Scenario.TriggerConcatProcessor.ScenarioReelset" name="Scenario.TriggerConcatProcessor.ScenarioReelset" />
+						<Data type="Scenario.StaticTriggerProcessor" name="Scenario.StaticTriggerProcessor" />
+						<Data type="Scenario.LoopProcessor" name="Scenario.LoopProcessor" />
+						<Data type="Scenario.AdvancedTransactionProcessor" name="Scenario.AdvancedTransactionProcessor" />
+					</ExecutionModel>
+					<ExecutionModel name="ScenarioLoop">
+						<Data type="ScenarioLoop.RandomRequest.ScenarioSelection" name="ScenarioLoop.RandomRequest.ScenarioSelection" />
+						<Data type="ScenarioLoop.RandomResponse.ScenarioSelection" name="ScenarioLoop.RandomResponse.ScenarioSelection" />
+						<Data type="ScenarioLoop.OutcomeDeepCopyProcessor.ODEOutcome" name="ScenarioLoop.OutcomeDeepCopyProcessor.ODEOutcome" />
+						<Data type="ScenarioLoop.BulkGameDataStoreProcessor" name="ScenarioLoop.BulkGameDataStoreProcessor" />
+						<Data type="ScenarioLoop.ODEPrizeProcessor" name="ScenarioLoop.ODEPrizeProcessor" />
+						<Data type="ScenarioLoop.LoopProcessor" name="ScenarioLoop.LoopProcessor" />
+						<Data type="ScenarioLoop.AdvancedTransactionProcessor" name="ScenarioLoop.AdvancedTransactionProcessor" />
+					</ExecutionModel>
+					<ExecutionModel name="Reveal">
+						<Data type="Reveal.ODEInputVerifier" name="Reveal.ODEInputVerifier" />
+						<Data type="Reveal.ODEInputVerifier.RevealData" name="Reveal.ODEInputVerifier.RevealData" />
+						<Data type="Reveal.StageProcessor" name="Reveal.StageProcessor" />
+						<Data type="Reveal.AdvancedTransactionProcessor" name="Reveal.AdvancedTransactionProcessor" />
+					</ExecutionModel>
+				</ExecutionModelMapping>
+			</Variation>
+		</PaytableVariation>
+	</PaytableData>
+	<PaytableData>
+		<ComponentsDataMapping>
+			<!-- START EXECUTION MODEL Wager_Buy ComponentData -->
+			<ComponentData name="Wager_Buy.ActionVerifier">
+				<Data name="TryBuyActions" type="ActionInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Buy.ODEInputVerifier.Wager">
+				<Data name="Wager_Buy.Wager" type="ODEInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Buy.ODEInputVerifier.JSON">
+				<Data name="Wager_Buy.JSON" type="ODEInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Buy.ODEInputVerifier.Keno">
+				<Data name="Wager_Buy.KenoBet" type="ODEInfo" />
+				<Data name="BetInfo" type="InstantWinKenoBetInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Buy.StaticTriggerProcessor">
+				<Data name="Wager_Buy.StaticTriggers" type="TriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Buy.LoopProcessor">
+				<Data name="Wager_Buy.Loop" type="TriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Buy.StageProcessor">
+				<Data name="Wager_Buy" type="StageTriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Buy.AdvancedTransactionProcessor">
+				<Data name="Wager_Buy" type="WagerStrategyInfo" />
+			</ComponentData>
+			<!-- END EXECUTION MODEL Wager_Buy ComponentData -->
+			
+			<!-- START EXECUTION MODEL Wager_Try ComponentData -->
+			<ComponentData name="Wager_Try.ActionVerifier">
+				<Data name="TryBuyActions" type="ActionInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.ODEInputVerifier.Wager">
+				<Data name="Wager_Try.Wager" type="ODEInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.ODEInputVerifier.JSON">
+				<Data name="Wager_Try.JSON" type="ODEInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.ODEInputVerifier.Keno">
+				<Data name="Wager_Try.KenoBet" type="ODEInfo" />
+				<Data name="BetInfo" type="InstantWinKenoBetInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.RandomRequest.DivisionSelection">
+				<Data name="DivisionSelection" type="PopulationInfo" />
+				<Data name="DivisionSelection" type="PopulationStripMapping" />
+				<Data name="SpotPricePointStripMappings" type="KeyValuePairInfo" />
+				<Data name="DivisionSelection1_100" type="StripInfo" />
+				<Data name="DivisionSelection1_200" type="StripInfo" />
+				<Data name="DivisionSelection2_100" type="StripInfo" />
+				<Data name="DivisionSelection2_200" type="StripInfo" />
+				<Data name="DivisionSelection3_100" type="StripInfo" />
+				<Data name="DivisionSelection3_200" type="StripInfo" />
+				<Data name="DivisionSelection4_100" type="StripInfo" />
+				<Data name="DivisionSelection4_200" type="StripInfo" />
+				<Data name="DivisionSelection5_100" type="StripInfo" />
+				<Data name="DivisionSelection5_200" type="StripInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.RandomResponse.DivisionSelection">
+				<Data name="DivisionSelection" type="PopulationInfo" />
+				<Data name="DivisionSelection" type="PopulationStripMapping" />
+				<Data name="SpotPricePointStripMappings" type="KeyValuePairInfo" />
+				<Data name="DivisionSelection1_100" type="StripInfo" />
+				<Data name="DivisionSelection1_200" type="StripInfo" />
+				<Data name="DivisionSelection2_100" type="StripInfo" />
+				<Data name="DivisionSelection2_200" type="StripInfo" />
+				<Data name="DivisionSelection3_100" type="StripInfo" />
+				<Data name="DivisionSelection3_200" type="StripInfo" />
+				<Data name="DivisionSelection4_100" type="StripInfo" />
+				<Data name="DivisionSelection4_200" type="StripInfo" />
+				<Data name="DivisionSelection5_100" type="StripInfo" />
+				<Data name="DivisionSelection5_200" type="StripInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.PopulationTriggerProcessor">
+				<Data name="DivisionSelection" type="PopulationTriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.TriggerConcatProcessor.ScenarioReelset">
+				<Data name="ScenarioReelset" type="TriggerConcatInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.StaticTriggerProcessor">
+				<Data name="Wager_Try.StaticTriggers" type="TriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.LoopProcessor">
+				<Data name="Wager_Try.Loop" type="TriggerInfo" />
+				<Data name="Wager_Try.Loop" type="LoopInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.StageProcessor">
+				<Data name="Wager_Try" type="StageTriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Wager_Try.AdvancedTransactionProcessor">
+				<Data name="Wager_Try" type="WagerStrategyInfo" />
+			</ComponentData>
+			<!-- END EXECUTION MODEL Wager_Try ComponentData -->
+			
+			<!-- START EXECUTION MODEL WagerLoop ComponentData -->
+			<ComponentData name="WagerLoop.RandomRequest.ScenarioSelection">
+				<Data name="ScenarioSelection" type="PopulationInfo" />
+				<Data name="ScenarioSelection" type="PopulationStripMapping" />
+				<Data name="ScenarioSelection" type="KeyValuePairInfo" />
+				<Data name="ScenarioSelection1_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection1_100_2" type="StripInfo" />
+				
+				<Data name="ScenarioSelection1_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection1_200_2" type="StripInfo" />
+				
+				<Data name="ScenarioSelection2_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection2_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection2_100_3" type="StripInfo" />
+				
+				<Data name="ScenarioSelection2_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection2_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection2_200_3" type="StripInfo" />
+				
+				<Data name="ScenarioSelection3_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection3_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection3_100_3" type="StripInfo" />
+				<Data name="ScenarioSelection3_100_4" type="StripInfo" />
+				
+				<Data name="ScenarioSelection3_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection3_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection3_200_3" type="StripInfo" />
+				<Data name="ScenarioSelection3_200_4" type="StripInfo" />
+				
+				<Data name="ScenarioSelection4_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_3" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_4" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_5" type="StripInfo" />
+				
+				<Data name="ScenarioSelection4_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_3" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_4" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_5" type="StripInfo" />
+				
+				<Data name="ScenarioSelection5_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_3" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_4" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_5" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_6" type="StripInfo" />
+				
+				<Data name="ScenarioSelection5_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_3" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_4" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_5" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_6" type="StripInfo" />
+			</ComponentData>
+			<ComponentData name="WagerLoop.RandomResponse.ScenarioSelection">
+				<Data name="ScenarioSelection" type="PopulationInfo" />
+			</ComponentData>
+			<ComponentData name="WagerLoop.OutcomeDeepCopyProcessor.ODEOutcome">
+				<Data name="WagerLoop" type="DeepCopyInfo" />
+			</ComponentData>
+			<ComponentData name="WagerLoop.BulkGameDataStoreProcessor">
+				<Data name="BulkGameDataStoreInfo" type="BulkGameDataStoreInfo" />
+				<Data name="DivisionToScenarioMappings" type="KeyValuePairInfo" />
+				<Data name="PrizeStructure" type="InstantWinPrizeInfo" />
+				<Data name="Variation" type="PaytableVariation" />
+			</ComponentData>
+			<ComponentData name="WagerLoop.ODEPrizeProcessor">
+				<Data name="ODE" type="PrizeInfo" />
+			</ComponentData>
+			<ComponentData name="WagerLoop.StaticTriggerProcessor">
+				<Data name="WagerLoop.StaticTriggers" type="TriggerInfo" />
+			</ComponentData>
+			<ComponentData name="WagerLoop.LoopProcessor">
+				<Data name="WagerLoop.Loop" type="TriggerInfo" />
+				<Data name="WagerLoop.Loop" type="LoopInfo" />
+			</ComponentData>
+			<ComponentData name="WagerLoop.AdvancedTransactionProcessor">
+				<Data name="WagerLoop" type="WagerStrategyInfo" />
+			</ComponentData>
+			<!-- END EXECUTION MODEL WagerLoop ComponentData -->
+
+			<!-- START EXECUTION MODEL Scenario ComponentData -->
+			<ComponentData name="Scenario.RandomRequest.DivisionSelection">
+				<Data name="DivisionSelection" type="PopulationInfo" />
+				<Data name="DivisionSelection" type="PopulationStripMapping" />
+				<Data name="SpotPricePointStripMappings" type="KeyValuePairInfo" />
+				<Data name="DivisionSelection1_100" type="StripInfo" />
+				<Data name="DivisionSelection1_200" type="StripInfo" />
+				<Data name="DivisionSelection2_100" type="StripInfo" />
+				<Data name="DivisionSelection2_200" type="StripInfo" />
+				<Data name="DivisionSelection3_100" type="StripInfo" />
+				<Data name="DivisionSelection3_200" type="StripInfo" />
+				<Data name="DivisionSelection4_100" type="StripInfo" />
+				<Data name="DivisionSelection4_200" type="StripInfo" />
+				<Data name="DivisionSelection5_100" type="StripInfo" />
+				<Data name="DivisionSelection5_200" type="StripInfo" />
+			</ComponentData>
+			<ComponentData name="Scenario.RandomResponse.DivisionSelection">
+				<Data name="DivisionSelection" type="PopulationInfo" />
+				<Data name="DivisionSelection" type="PopulationStripMapping" />
+				<Data name="SpotPricePointStripMappings" type="KeyValuePairInfo" />
+				<Data name="DivisionSelection1_100" type="StripInfo" />
+				<Data name="DivisionSelection1_200" type="StripInfo" />
+				<Data name="DivisionSelection2_100" type="StripInfo" />
+				<Data name="DivisionSelection2_200" type="StripInfo" />
+				<Data name="DivisionSelection3_100" type="StripInfo" />
+				<Data name="DivisionSelection3_200" type="StripInfo" />
+				<Data name="DivisionSelection4_100" type="StripInfo" />
+				<Data name="DivisionSelection4_200" type="StripInfo" />
+				<Data name="DivisionSelection5_100" type="StripInfo" />
+				<Data name="DivisionSelection5_200" type="StripInfo" />
+			</ComponentData>
+			<ComponentData name="Scenario.PopulationTriggerProcessor">
+				<Data name="DivisionSelection" type="PopulationTriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Scenario.TriggerConcatProcessor.ScenarioReelset">
+				<Data name="ScenarioReelset" type="TriggerConcatInfo" />
+			</ComponentData>
+			<ComponentData name="Scenario.StaticTriggerProcessor">
+				<Data name="Scenario.StaticTriggers" type="TriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Scenario.LoopProcessor">
+				<Data name="Scenario.Loop" type="TriggerInfo" />
+				<Data name="Scenario.Loop" type="LoopInfo" />
+			</ComponentData>
+			<ComponentData name="Scenario.AdvancedTransactionProcessor">
+				<Data name="Scenario" type="WagerStrategyInfo" />
+			</ComponentData>
+			<!-- END EXECUTION MODEL Scenario ComponentData -->
+
+			<!-- START EXECUTION MODEL ScenarioLoop ComponentData -->
+			<ComponentData name="ScenarioLoop.RandomRequest.ScenarioSelection">
+				<Data name="ScenarioSelection" type="PopulationInfo" />
+				<Data name="ScenarioSelection" type="PopulationStripMapping" />
+				<Data name="ScenarioSelection" type="KeyValuePairInfo" />
+				<Data name="ScenarioSelection1_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection1_100_2" type="StripInfo" />
+				
+				<Data name="ScenarioSelection1_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection1_200_2" type="StripInfo" />
+				
+				<Data name="ScenarioSelection2_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection2_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection2_100_3" type="StripInfo" />
+				
+				<Data name="ScenarioSelection2_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection2_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection2_200_3" type="StripInfo" />
+				
+				<Data name="ScenarioSelection3_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection3_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection3_100_3" type="StripInfo" />
+				<Data name="ScenarioSelection3_100_4" type="StripInfo" />
+				
+				<Data name="ScenarioSelection3_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection3_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection3_200_3" type="StripInfo" />
+				<Data name="ScenarioSelection3_200_4" type="StripInfo" />
+				
+				<Data name="ScenarioSelection4_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_3" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_4" type="StripInfo" />
+				<Data name="ScenarioSelection4_100_5" type="StripInfo" />
+				
+				<Data name="ScenarioSelection4_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_3" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_4" type="StripInfo" />
+				<Data name="ScenarioSelection4_200_5" type="StripInfo" />
+				
+				<Data name="ScenarioSelection5_100_1" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_2" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_3" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_4" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_5" type="StripInfo" />
+				<Data name="ScenarioSelection5_100_6" type="StripInfo" />
+				
+				<Data name="ScenarioSelection5_200_1" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_2" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_3" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_4" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_5" type="StripInfo" />
+				<Data name="ScenarioSelection5_200_6" type="StripInfo" />
+			</ComponentData>
+			<ComponentData name="ScenarioLoop.RandomResponse.ScenarioSelection">
+				<Data name="ScenarioSelection" type="PopulationInfo" />
+			</ComponentData>
+			<ComponentData name="ScenarioLoop.OutcomeDeepCopyProcessor.ODEOutcome">
+				<Data name="Scenario" type="DeepCopyInfo" />
+			</ComponentData>
+			<ComponentData name="ScenarioLoop.BulkGameDataStoreProcessor">
+				<Data name="BulkGameDataStoreInfo" type="BulkGameDataStoreInfo" />
+				<Data name="PrizeStructure" type="InstantWinPrizeInfo" />
+				<Data name="Variation" type="PaytableVariation" />
+			</ComponentData>
+			<ComponentData name="ScenarioLoop.ODEPrizeProcessor">
+				<Data name="ODE" type="PrizeInfo" />
+			</ComponentData>
+			<ComponentData name="ScenarioLoop.LoopProcessor">
+				<Data name="ScenarioLoop.Loop" type="TriggerInfo" />
+				<Data name="ScenarioLoop.Loop" type="LoopInfo" />
+			</ComponentData>
+			<ComponentData name="ScenarioLoop.AdvancedTransactionProcessor">
+				<Data name="Scenario" type="WagerStrategyInfo" />
+			</ComponentData>
+			<!-- END EXECUTION MODEL ScenarioLoop ComponentData -->
+			
+			<!-- START EXECUTION MODEL Reveal ComponentData -->
+			<ComponentData name="Reveal.ODEInputVerifier">
+				<Data name="Reveal.Status" type="ODEInfo" />
+			</ComponentData>
+			<ComponentData name="Reveal.ODEInputVerifier.RevealData">
+				<Data name="Reveal.RevealData" type="ODEInfo" />
+			</ComponentData>
+			<ComponentData name="Reveal.StageProcessor">
+				<Data name="Reveal" type="StageTriggerInfo" />
+			</ComponentData>
+			<ComponentData name="Reveal.AdvancedTransactionProcessor">
+				<Data name="Reveal" type="WagerStrategyInfo" />
+			</ComponentData>
+			<!-- END EXECUTION MODEL Reveal ComponentData -->
+
+		</ComponentsDataMapping>
+	</PaytableData>
+
+	<!-- START EXECUTION MODEL Wager_Buy PaytableData -->
+	<PaytableData>
+		<ODEInfo name="Wager_Buy.Wager" verificationStrategy="wager">
+			<Wagers>
+				<Wager name="Wager1" />
+			</Wagers>
+		</ODEInfo>
+	</PaytableData>
+	<PaytableData>
+		<ODEInfo name="Wager_Buy.JSON" verificationStrategy="json" />
+	</PaytableData>
+	<PaytableData>
+		<ODEInfo name="Wager_Buy.KenoBet" verificationStrategy="keno" />
+	</PaytableData>
+	<PaytableData>
+		<InstantWinKenoBetInfo name="BetInfo">
+			<ValidSpotsValues>
+				<Spots>1</Spots>
+				<Spots>2</Spots>
+				<Spots>3</Spots>
+				<Spots>4</Spots>
+				<Spots>5</Spots>
+			</ValidSpotsValues>
+		</InstantWinKenoBetInfo>
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="Wager_Buy.StaticTriggers">
+			<Trigger name="wager" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="Wager_Buy.Loop">
+			<Trigger name="wager" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<StageTriggerInfo name="Wager_Buy">
+			<Trigger name="wager" stageConnector="WagerToScenario" />
+		</StageTriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<WagerStrategyInfo name="Wager_Buy">
+			<Trigger name="wager" wagerState="pending" payoutState="noPayout" priority="0" />
+		</WagerStrategyInfo>
+	</PaytableData>
+	<!-- END EXECUTION MODEL Wager_Buy PaytableData -->
+	
+	<!-- START EXECUTION MODEL Wager_Try PaytableData -->
+	<PaytableData>
+		<ActionInfo name="TryBuyActions">
+			<Action name="TRY" />
+			<Action name="BUY" />
+			<Strategy>action</Strategy>
+		</ActionInfo>
+	</PaytableData>
+	<PaytableData>
+		<ODEInfo name="Wager_Try.Wager" verificationStrategy="wager">
+			<Wagers>
+				<Wager name="Wager1" />
+			</Wagers>
+		</ODEInfo>
+	</PaytableData>
+	<PaytableData>
+		<ODEInfo name="Wager_Try.JSON" verificationStrategy="json" />
+	</PaytableData>
+	<PaytableData>
+		<ODEInfo name="Wager_Try.KenoBet" verificationStrategy="keno" />
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="Wager_Try.StaticTriggers">
+			<Trigger name="wager" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="Wager_Try.Loop">
+			<Trigger name="wager" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<LoopInfo name="Wager_Try.Loop" triggerStage="Wager" />
+	</PaytableData>
+	<PaytableData>
+		<StageTriggerInfo name="Wager_Try">
+			<Trigger name="wager" stageConnector="WagerToWagerLoop" />
+		</StageTriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<WagerStrategyInfo name="Wager_Try">
+			<Trigger name="wager" wagerState="pending" payoutState="noPayout" priority="0" />
+		</WagerStrategyInfo>
+	</PaytableData>
+	<!-- END EXECUTION MODEL Wager_Try PaytableData -->
+	
+	<!-- START EXECUTION MODEL WagerLoop PaytableData -->
+	<PaytableData>
+		<DeepCopyInfo name="WagerLoop">
+			<DeepCopy type="JSONOutcome" sourceName="ODEResponse.Encrypted" destinationName="ODEResponse" />
+		</DeepCopyInfo>
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="WagerLoop.StaticTriggers">
+			<Trigger name="wagerLoop" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<LoopInfo name="WagerLoop.Loop" triggerStage="Wager" />
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="WagerLoop.Loop">
+			<Trigger name="thisTriggerWillNeverExist" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<WagerStrategyInfo name="WagerLoop">
+			<Trigger name="wagerLoop" wagerState="settled" payoutState="payout" priority="0" />
+		</WagerStrategyInfo>
+	</PaytableData>
+	<!-- END EXECUTION MODEL WagerLoop PaytableData -->
+	
+	<!-- START EXECUTION MODEL Scenario PaytableData -->
+	<PaytableData>
+		<PopulationInfo name="DivisionSelection" uniqueRandoms="false" randomRequestStrategy="triggerReelsetSwitch" populateStrategy="triggerReelsetSwitch">
+			<Entry name="Division" stripOffset="0">
+				<Cell name="Division" layer="0" column="0" row="0" />
+			</Entry>
+		</PopulationInfo>
+	</PaytableData>
+	<PaytableData>
+		<PopulationStripMapping name="DivisionSelection">
+			<Map entry="Division" strip="Division" />
+		</PopulationStripMapping>
+	</PaytableData>
+	<PaytableData>
+		<KeyValuePairInfo name="SpotPricePointStripMappings">
+			<Mapping key="1_100" value="DivisionSelection1_100" />
+			<Mapping key="1_200" value="DivisionSelection1_200" />
+			
+			<Mapping key="2_100" value="DivisionSelection2_100" />
+			<Mapping key="2_200" value="DivisionSelection2_200" />
+			
+			<Mapping key="3_100" value="DivisionSelection3_100" />
+			<Mapping key="3_200" value="DivisionSelection3_200" />
+			
+			<Mapping key="4_100" value="DivisionSelection4_100" />
+			<Mapping key="4_200" value="DivisionSelection4_200" />
+			
+			<Mapping key="5_100" value="DivisionSelection5_100" />
+			<Mapping key="5_200" value="DivisionSelection5_200" />
+		</KeyValuePairInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection1_100">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection1_200">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection2_100">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection2_200">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection3_100">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+				<Stop symbolID="4" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection3_200">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+				<Stop symbolID="4" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection4_100">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+				<Stop symbolID="4" weight="5" />
+				<Stop symbolID="5" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection4_200">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+				<Stop symbolID="4" weight="5" />
+				<Stop symbolID="5" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection5_100">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+				<Stop symbolID="4" weight="5" />
+				<Stop symbolID="5" weight="5" />
+				<Stop symbolID="6" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="DivisionSelection5_200">
+			<Strip name="Division">
+				<Stop symbolID="1" weight="5" />
+				<Stop symbolID="2" weight="5" />
+				<Stop symbolID="3" weight="5" />
+				<Stop symbolID="4" weight="5" />
+				<Stop symbolID="5" weight="5" />
+				<Stop symbolID="6" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<DeepCopyInfo name="Scenario">
+			<DeepCopy type="JSONOutcome" sourceName="ODEResponse.Encrypted" destinationName="ODEResponse" />
+		</DeepCopyInfo>
+	</PaytableData>
+	<PaytableData>
+		<PopulationTriggerInfo name="DivisionSelection" strategy="default" />
+	</PaytableData>
+	<PaytableData>
+		<TriggerConcatInfo name="ScenarioReelset" strategy="orderedTriggerSet">
+		    <Separator>_</Separator>
+		    <TriggerSet>
+		       <Trigger>1_100</Trigger>
+		       <Trigger>1_200</Trigger>
+		       <Trigger>2_100</Trigger>
+		       <Trigger>2_200</Trigger>
+		       <Trigger>3_100</Trigger>
+		       <Trigger>3_200</Trigger>
+		       <Trigger>4_100</Trigger>
+		       <Trigger>4_200</Trigger>
+		       <Trigger>5_100</Trigger>
+		       <Trigger>5_200</Trigger>
+		     </TriggerSet>
+		     <TriggerSet>
+		        <Trigger>1</Trigger>
+		        <Trigger>2</Trigger>
+		        <Trigger>3</Trigger>
+		        <Trigger>4</Trigger>
+		        <Trigger>5</Trigger>
+		        <Trigger>6</Trigger>
+		     </TriggerSet>
+		 </TriggerConcatInfo>
+	 </PaytableData>
+	<PaytableData>
+		<TriggerInfo name="Scenario.StaticTriggers">
+			<Trigger name="scenario" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="Scenario.Loop">
+			<Trigger name="scenario" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<LoopInfo name="Scenario.Loop" triggerStage="Scenario" />
+	</PaytableData>
+	<PaytableData>
+		<BulkGameDataStoreInfo name="BulkGameDataStoreInfo" strategy="simulateKenoOdeResponse">
+			<TableName>GDS_COM_KENO_IW_SCENARIO</TableName>
+			<EnableLocalization defaultLanguage="en">false</EnableLocalization>
+			<MathVersion>300-9015-V1</MathVersion>
+		</BulkGameDataStoreInfo>
+	</PaytableData>
+	<PaytableData>
+		<KeyValuePairInfo name="DivisionToScenarioMappings">
+			<Mapping key="1" value="D1" />
+			<Mapping key="2" value="D2" />
+			<Mapping key="3" value="D3" />
+			<Mapping key="4" value="D4" />
+			<Mapping key="5" value="D5" />
+			<Mapping key="6" value="D6" />
+		</KeyValuePairInfo>
+	</PaytableData>
+	<PaytableData>
+		<InstantWinPrizeInfo name="PrizeStructure">
+			<PricePoint spots="1" amount="100">
+				<Prize division="1" description="1">10000</Prize>
+				<Prize division="2" description="2">0</Prize>
+			</PricePoint>
+			<PricePoint spots="1" amount="200">
+				<Prize division="1" description="1">25000</Prize>
+				<Prize division="2" description="2">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="2" amount="100">
+				<Prize division="1" description="1">10000</Prize>
+				<Prize division="2" description="2">2500</Prize>
+				<Prize division="3" description="3">0</Prize>
+			</PricePoint>
+			<PricePoint spots="2" amount="200">
+				<Prize division="1" description="1">25000</Prize>
+				<Prize division="2" description="2">5000</Prize>
+				<Prize division="3" description="3">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="3" amount="100">
+				<Prize division="1" description="1">10000</Prize>
+				<Prize division="2" description="2">2500</Prize>
+				<Prize division="3" description="3">1000</Prize>
+				<Prize division="4" description="4">0</Prize>
+			</PricePoint>
+			<PricePoint spots="3" amount="200">
+				<Prize division="1" description="1">25000</Prize>
+				<Prize division="2" description="2">5000</Prize>
+				<Prize division="3" description="3">2500</Prize>
+				<Prize division="4" description="4">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="4" amount="100">
+				<Prize division="1" description="1">10000</Prize>
+				<Prize division="2" description="2">2500</Prize>
+				<Prize division="3" description="3">1000</Prize>
+				<Prize division="4" description="4">200</Prize>
+				<Prize division="5" description="5">0</Prize>
+			</PricePoint>
+			<PricePoint spots="4" amount="200">
+				<Prize division="1" description="1">25000</Prize>
+				<Prize division="2" description="2">5000</Prize>
+				<Prize division="3" description="3">2500</Prize>
+				<Prize division="4" description="4">500</Prize>
+				<Prize division="5" description="5">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="5" amount="100">
+				<Prize division="1" description="1">1000000</Prize>
+				<Prize division="2" description="2">2500</Prize>
+				<Prize division="3" description="3">1000</Prize>
+				<Prize division="4" description="4">200</Prize>
+				<Prize division="5" description="5">100</Prize>
+				<Prize division="6" description="6">0</Prize>
+			</PricePoint>
+			<PricePoint spots="5" amount="200">
+				<Prize division="1" description="1">2500000</Prize>
+				<Prize division="2" description="2">5000</Prize>
+				<Prize division="3" description="3">2500</Prize>
+				<Prize division="4" description="4">500</Prize>
+				<Prize division="5" description="5">200</Prize>
+				<Prize division="6" description="6">0</Prize>
+			</PricePoint>
+		</InstantWinPrizeInfo>
+	</PaytableData>
+	<PaytableData>
+		<!-- @validation:ignore -->
+		<InstantWinPrizeInfo name="PrizeTable">
+			<PricePoint spots="1" amount="100">
+				<Prize division="1" description="TBD">10000</Prize>
+				<Prize division="2" description="TBD">0</Prize>
+			</PricePoint>
+			<PricePoint spots="1" amount="200">
+				<Prize division="1" description="TBD">25000</Prize>
+				<Prize division="2" description="TBD">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="2" amount="100">
+				<Prize division="1" description="TBD">10000</Prize>
+				<Prize division="2" description="TBD">2500</Prize>
+				<Prize division="3" description="TBD">0</Prize>
+			</PricePoint>
+			<PricePoint spots="2" amount="200">
+				<Prize division="1" description="TBD">25000</Prize>
+				<Prize division="2" description="TBD">5000</Prize>
+				<Prize division="3" description="TBD">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="3" amount="100">
+				<Prize division="1" description="TBD">10000</Prize>
+				<Prize division="2" description="TBD">2500</Prize>
+				<Prize division="3" description="TBD">1000</Prize>
+				<Prize division="4" description="TBD">0</Prize>
+			</PricePoint>
+			<PricePoint spots="3" amount="200">
+				<Prize division="1" description="TBD">25000</Prize>
+				<Prize division="2" description="TBD">5000</Prize>
+				<Prize division="3" description="TBD">2500</Prize>
+				<Prize division="4" description="TBD">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="4" amount="100">
+				<Prize division="1" description="TBD">10000</Prize>
+				<Prize division="2" description="TBD">2500</Prize>
+				<Prize division="3" description="TBD">1000</Prize>
+				<Prize division="4" description="TBD">200</Prize>
+				<Prize division="5" description="TBD">0</Prize>
+			</PricePoint>
+			<PricePoint spots="4" amount="200">
+				<Prize division="1" description="TBD">25000</Prize>
+				<Prize division="2" description="TBD">5000</Prize>
+				<Prize division="3" description="TBD">2500</Prize>
+				<Prize division="4" description="TBD">500</Prize>
+				<Prize division="5" description="TBD">0</Prize>
+			</PricePoint>
+			
+			<PricePoint spots="5" amount="100">
+				<Prize division="1" description="TBD">1000000</Prize>
+				<Prize division="2" description="TBD">2500</Prize>
+				<Prize division="3" description="TBD">1000</Prize>
+				<Prize division="4" description="TBD">200</Prize>
+				<Prize division="5" description="TBD">100</Prize>
+				<Prize division="6" description="TBD">0</Prize>
+			</PricePoint>
+			<PricePoint spots="5" amount="200">
+				<Prize division="1" description="TBD">2500000</Prize>
+				<Prize division="2" description="TBD">5000</Prize>
+				<Prize division="3" description="TBD">2500</Prize>
+				<Prize division="4" description="TBD">500</Prize>
+				<Prize division="5" description="TBD">200</Prize>
+				<Prize division="6" description="TBD">0</Prize>
+			</PricePoint>
+		</InstantWinPrizeInfo>
+	</PaytableData>
+	<PaytableData>
+		<PrizeInfo name="ODE" strategy="ode" multiplierStrategy="null">
+			<Prize name="Total">
+				<PrizePay count="1" value="0" />
+			</Prize>
+		</PrizeInfo>
+	</PaytableData>
+	<PaytableData>
+		<LoopInfo name="ScenarioLoop.Loop" triggerStage="Scenario" />
+	</PaytableData>
+	<PaytableData>
+		<TriggerInfo name="ScenarioLoop.Loop">
+			<Trigger name="thisTriggerWillNeverExist" />
+		</TriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<WagerStrategyInfo name="Scenario">
+			<Trigger name="scenario" wagerState="pending" payoutState="noPayout" priority="0" />
+		</WagerStrategyInfo>
+	</PaytableData>
+	<!-- END EXECUTION MODEL Scenario PaytableData -->
+
+	<!-- START EXECUTION MODEL ScenarioLoop PaytableData -->
+	<PaytableData>
+		<PopulationInfo name="ScenarioSelection" uniqueRandoms="false" randomRequestStrategy="triggerReelsetSwitch" populateStrategy="randomLong">
+			<Entry name="Scenario" stripOffset="0">
+				<Cell name="Scenario" layer="0" column="0" row="0" />
+			</Entry>
+		</PopulationInfo>
+	</PaytableData>
+	<PaytableData>
+		<PopulationStripMapping name="ScenarioSelection">
+			<Map entry="Scenario" strip="Scenario" />
+		</PopulationStripMapping>
+	</PaytableData>
+	<PaytableData>
+		<KeyValuePairInfo name="ScenarioSelection">
+			<Mapping key="1_100_1" value="ScenarioSelection1_100_1" />
+			<Mapping key="1_100_2" value="ScenarioSelection1_100_2" />
+			
+			<Mapping key="1_200_1" value="ScenarioSelection1_200_1" />
+			<Mapping key="1_200_2" value="ScenarioSelection1_200_2" />
+			
+			<Mapping key="2_100_1" value="ScenarioSelection2_100_1" />
+			<Mapping key="2_100_2" value="ScenarioSelection2_100_2" />
+			<Mapping key="2_100_3" value="ScenarioSelection2_100_3" />
+			
+			<Mapping key="2_200_1" value="ScenarioSelection2_200_1" />
+			<Mapping key="2_200_2" value="ScenarioSelection2_200_2" />
+			<Mapping key="2_200_3" value="ScenarioSelection2_200_3" />
+			
+			<Mapping key="3_100_1" value="ScenarioSelection3_100_1" />
+			<Mapping key="3_100_2" value="ScenarioSelection3_100_2" />
+			<Mapping key="3_100_3" value="ScenarioSelection3_100_3" />
+			<Mapping key="3_100_4" value="ScenarioSelection3_100_4" />
+			
+			<Mapping key="3_200_1" value="ScenarioSelection3_200_1" />
+			<Mapping key="3_200_2" value="ScenarioSelection3_200_2" />
+			<Mapping key="3_200_3" value="ScenarioSelection3_200_3" />
+			<Mapping key="3_200_4" value="ScenarioSelection3_200_4" />
+			
+			<Mapping key="4_100_1" value="ScenarioSelection4_100_1" />
+			<Mapping key="4_100_2" value="ScenarioSelection4_100_2" />
+			<Mapping key="4_100_3" value="ScenarioSelection4_100_3" />
+			<Mapping key="4_100_4" value="ScenarioSelection4_100_4" />
+			
+			<Mapping key="4_200_1" value="ScenarioSelection4_200_1" />
+			<Mapping key="4_200_2" value="ScenarioSelection4_200_2" />
+			<Mapping key="4_200_3" value="ScenarioSelection4_200_3" />
+			<Mapping key="4_200_4" value="ScenarioSelection4_200_4" />
+			
+			<Mapping key="4_100_1" value="ScenarioSelection4_100_1" />
+			<Mapping key="4_100_2" value="ScenarioSelection4_100_2" />
+			<Mapping key="4_100_3" value="ScenarioSelection4_100_3" />
+			<Mapping key="4_100_4" value="ScenarioSelection4_100_4" />
+			<Mapping key="4_100_5" value="ScenarioSelection4_100_5" />
+			
+			<Mapping key="4_200_1" value="ScenarioSelection4_200_1" />
+			<Mapping key="4_200_2" value="ScenarioSelection4_200_2" />
+			<Mapping key="4_200_3" value="ScenarioSelection4_200_3" />
+			<Mapping key="4_200_4" value="ScenarioSelection4_200_4" />
+			<Mapping key="4_200_5" value="ScenarioSelection4_200_5" />
+			
+			<Mapping key="5_100_1" value="ScenarioSelection5_100_1" />
+			<Mapping key="5_100_2" value="ScenarioSelection5_100_2" />
+			<Mapping key="5_100_3" value="ScenarioSelection5_100_3" />
+			<Mapping key="5_100_4" value="ScenarioSelection5_100_4" />
+			<Mapping key="5_100_5" value="ScenarioSelection5_100_5" />
+			<Mapping key="5_100_6" value="ScenarioSelection5_100_6" />
+			
+			<Mapping key="5_200_1" value="ScenarioSelection5_200_1" />
+			<Mapping key="5_200_2" value="ScenarioSelection5_200_2" />
+			<Mapping key="5_200_3" value="ScenarioSelection5_200_3" />
+			<Mapping key="5_200_4" value="ScenarioSelection5_200_4" />
+			<Mapping key="5_200_5" value="ScenarioSelection5_200_5" />
+			<Mapping key="5_200_6" value="ScenarioSelection5_200_6" />
+		</KeyValuePairInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection1_100_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="5" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection1_100_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" /> 
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection1_200_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection1_200_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection2_100_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection2_100_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection2_100_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection2_200_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection2_200_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection2_200_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_100_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_100_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_100_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_100_4">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_200_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_200_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_200_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection3_200_4">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_100_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_100_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_100_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_100_4">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_100_5">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_200_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_200_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_200_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_200_4">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection4_200_5">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_100_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_100_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_100_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_100_4">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_100_5">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_100_6">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_200_1">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_200_2">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_200_3">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_200_4">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_200_5">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<PaytableData>
+		<StripInfo name="ScenarioSelection5_200_6">
+			<Strip name="Scenario">
+				<Stop symbolID="numberOfScenarios" weight="10" />
+			</Strip>
+		</StripInfo>
+	</PaytableData>
+	<!-- END EXECUTION MODEL ScenarioLoop PaytableData -->
+	
+	<!-- START EXECUTION MODEL Reveal PaytableData -->
+	<PaytableData>
+		<ODEInfo name="Reveal.Status" verificationStrategy="revealStatus">
+			<RevealIncompleteTrigger>incomplete</RevealIncompleteTrigger>
+			<RevealCompleteTrigger>complete</RevealCompleteTrigger>
+		</ODEInfo>
+	</PaytableData>
+	<PaytableData>
+		<ODEInfo name="Reveal.RevealData" verificationStrategy="revealData" />
+	</PaytableData>
+	<PaytableData>
+		<StageTriggerInfo name="Reveal">
+			<Trigger name="incomplete" stageConnector="RevealToReveal" />
+			<Trigger name="complete" stageConnector="RevealToWager" />
+		</StageTriggerInfo>
+	</PaytableData>
+	<PaytableData>
+		<WagerStrategyInfo name="Reveal">
+			<Trigger name="incomplete" wagerState="pending" payoutState="noPayout" priority="50" />
+			<Trigger name="complete" wagerState="settled" payoutState="payout" priority="0" />
+		</WagerStrategyInfo>
+	</PaytableData>
+	<!-- END EXECUTION MODEL Reveal PaytableData -->
+	
+</Paytable>

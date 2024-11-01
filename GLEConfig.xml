@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <family code="9015" desc="Keno Game" studio="interactive" organizationName="Interactive">
+        <game name="IW Commercial Keno Template" version="1.0.0" gameengineversion="2" gamelogicversion="1.0"
+              number="1"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="50,100,1000"
+              spots="1:2:3:4:5:6:7:8:9:10"
+              productId="3"
+              gamegroup="Keno"
+              languages="en">
+            <!-- 50c & $10 price points added for LNZ PA Test -->
+			<!-- LNZ -->
+            <paymodel modelid="300-9015-101" revealId="9015" revealVersionId="9015"
+			          confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+					  mincoins="0" cointhreshold="0"
+					  name="IW Commercial Keno Template : 300-9015-101"
+					  hibethold="5.06" lobethold="5.06"
+					  hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+			<paymodelConfig modelid="300-9015-101" clienttype="HTML" configcode="IXML"/>
+			<paymodelConfig modelid="300-9015-101" clienttype="HTML" configcode="PHLP"/>
+            
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+            
+			<channels>
+				<channel name="INT">
+					<presentation clientversion="1.0" enableFreeSpin="N" gameFolder="KenoTemplate" height="600" meterheight="0" meterwidth="0" name="HTML" width="800" />
+					<presentation clientversion="1.0" enableFreeSpin="N" gameFolder="KenoTemplate" height="320" meterheight="0" meterwidth="0" name="MINH" width="480" />
+				</channel>
+				<channel name="MOB">
+					<presentation clientversion="1.0" enableFreeSpin="N" gameFolder="KenoTemplate" height="600" meterheight="0" meterwidth="0" name="HTML" width="800" />
+					<presentation clientversion="1.0" enableFreeSpin="N" gameFolder="KenoTemplate" height="480" meterheight="0" meterwidth="0" name="MINH" width="320" />
+					<presentation clientversion="1.0" enableFreeSpin="N" gameFolder="KenoTemplate" height="600" meterheight="0" meterwidth="0" name="HTAB" width="800" />
+					<presentation clientversion="1.0" enableFreeSpin="N" gameFolder="KenoTemplate" height="480" meterheight="0" meterwidth="0" name="MTAB" width="320" />
+				</channel>
+			</channels>
+		</game>
+	</family>

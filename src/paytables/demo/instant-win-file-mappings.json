@@ -1,0 +1,175 @@
+{
+    "kenoMappings": [
+        {
+            "revealPath": "KNX/reveal_KNX01_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX01_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "1"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX01_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX01_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "1"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX02_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX02_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "2"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX02_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX02_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "2"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX03_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX03_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "3"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX03_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX03_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "3"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX04_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX04_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "4"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX04_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX04_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "4"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX05_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX05_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "5"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX05_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX05_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "5"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX06_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX06_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "6"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX06_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX06_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "v001",
+            "spots": "6"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX07_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX07_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "7"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX07_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX07_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "7"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX08_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX08_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "8"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX08_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX08_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "8"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX09_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX09_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "9"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX09_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX09_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "9"
+        },
+
+        {
+            "revealPath": "KNX/reveal_KNX10_p0100_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX10_p0100_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "100",
+            "mathVersion": "300-9015-V1",
+            "spots": "10"
+        },
+        {
+            "revealPath": "KNX/reveal_KNX10_p0200_v001.fil",
+            "mechanicPath": "KNX/gamedef_KNX10_p0200_v001.fil",
+            "familyID": "300-9015",
+            "pricePoint": "200",
+            "mathVersion": "300-9015-V1",
+            "spots": "10"
+        }
+    ],
+    "defaultLanguage": "en",
+    "defaultPricePoint": "0"
+}

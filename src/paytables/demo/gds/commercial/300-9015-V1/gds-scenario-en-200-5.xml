@@ -1,0 +1,2414 @@
+<BulkGameData tableName="GDS_COM_KENO_IW_SCENARIO">
+	<TableDef>
+		<Column type="string" key="true">FAMILY_ID</Column>
+		<Column type="string" key="true">VERSION</Column>
+		<Column type="int" key="true">PRICE_POINT</Column>
+		<Column type="string" key="true">LANGUAGE_CODE</Column>
+		<Column type="int" key="true">DIVISION</Column>
+		<Column type="int" key="true">SCENARIO_INDEX</Column>
+		<Column type="int" key="true">SPOTS</Column>
+		<Column type="string">SCENARIO</Column>
+	</TableDef>
+	<Data>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">1</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|5m6</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">2</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|5m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">3</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|5m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">3</Value>
+			<Value column="SCENARIO_INDEX">1</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|4m6</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">4</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|5m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">5</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|5m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">5</Value>
+			<Value column="SCENARIO_INDEX">1</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|4m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">6</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|4m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">7</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m6</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">8</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|4m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">9</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|5m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">9</Value>
+			<Value column="SCENARIO_INDEX">1</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|5m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">10</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|4m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">11</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">12</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">13</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">13</Value>
+			<Value column="SCENARIO_INDEX">1</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|4m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">13</Value>
+			<Value column="SCENARIO_INDEX">2</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">13</Value>
+			<Value column="SCENARIO_INDEX">3</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|4m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">14</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m6</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">15</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">16</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">17</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">17</Value>
+			<Value column="SCENARIO_INDEX">1</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">17</Value>
+			<Value column="SCENARIO_INDEX">2</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|3m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">17</Value>
+			<Value column="SCENARIO_INDEX">3</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">18</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">19</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">20</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">20</Value>
+			<Value column="SCENARIO_INDEX">1</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|2m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">0</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">1</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">2</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">3</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">4</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">5</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">6</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">7</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">8</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">9</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">10</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">11</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">12</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">13</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">14</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">15</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">16</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">17</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">18</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">19</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">20</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">21</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">22</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">23</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">24</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">25</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">26</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">27</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">28</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">29</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m6</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">30</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">31</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">32</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">33</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">34</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">35</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">36</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">37</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">38</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">39</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">40</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">41</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">42</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">43</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">44</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">45</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">46</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">47</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">48</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">49</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">50</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">51</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">52</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">53</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">54</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">55</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">56</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">57</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">58</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">59</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">60</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">61</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">62</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">63</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">64</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">65</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">66</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">67</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">68</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">69</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">70</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">71</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">72</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">73</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">74</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">75</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">76</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">77</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">78</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">79</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">80</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">81</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">82</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">83</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">84</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">85</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">86</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">87</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">88</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">89</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">90</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">91</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">92</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">93</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">94</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">95</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">96</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">97</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">98</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">99</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">100</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">101</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">102</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">103</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">104</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">105</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">106</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">107</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">108</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">109</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">110</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">111</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">112</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">113</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">114</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">115</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">116</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">117</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">118</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">119</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">120</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">121</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">122</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">123</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">124</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">125</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m6</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">126</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">127</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">128</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">129</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">130</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">131</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">132</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">133</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">134</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">135</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">136</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">137</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">138</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">139</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">140</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">141</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">142</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">143</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">144</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">145</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">146</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">147</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">148</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">149</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">150</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">151</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">152</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">153</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">154</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">155</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">156</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">157</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">158</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">159</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">160</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m4</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">161</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">162</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">163</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">164</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">165</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">166</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">167</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">168</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">169</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">170</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">171</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">172</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m5</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">173</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">174</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">175</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">176</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">177</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">178</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">179</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">180</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">181</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">182</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">183</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">184</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">185</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m2</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">186</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">187</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">188</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">189</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">190</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">191</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">192</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">193</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">194</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">195</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">196</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">197</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">198</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">199</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">200</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">201</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">202</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">203</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">204</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m3</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">205</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">206</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">207</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m1</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">208</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|1m0</Value>
+		</Item>
+		<Item>
+			<Value column="FAMILY_ID">300-9015</Value>
+			<Value column="VERSION">300-9015-V1</Value>
+			<Value column="PRICE_POINT">200</Value>
+			<Value column="LANGUAGE_CODE">en</Value>
+			<Value column="DIVISION">21</Value>
+			<Value column="SCENARIO_INDEX">209</Value>
+			<Value column="SPOTS">5</Value>
+			<Value column="SCENARIO">5|0m0</Value>
+		</Item>
+	</Data>
+</BulkGameData>
